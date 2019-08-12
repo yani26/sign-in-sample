@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">sign in_sample</string>
+    <string name="measure_pulse">Measure</string>
+    <string name="send_status">Send Data</string>
+
+    <string name="server" translatable="false">wss://203.135.68.129:8443/revengeWS</string>
+    <string name="audio_server" translatable="false">203.135.68.129</string>
+</resources>

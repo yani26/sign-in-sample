@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context="com.example.signin_sample.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/pulse_chart"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_marginTop="150dp"
+        android:gravity="center_horizontal">
+
+        <SurfaceView
+            android:id="@+id/svPulseCamera"
+            android:layout_width="240dp"
+            android:layout_height="283dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            tools:ignore="ObsoleteLayoutParam">
+
+        </SurfaceView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/measureButton"
+            android:longClickable="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/measure_pulse" />
+
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:longClickable="true"
+            android:text="@string/send_status" />
+
+        />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textPixelCount"
+                android:layout_width="176dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/pulsePeriod"
+                android:layout_width="176dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="0:00"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textPercent"
+                android:layout_width="176dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
