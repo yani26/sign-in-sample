@@ -14,15 +14,11 @@ Register when using the app for the first time
 
 
 ## Architecture
-```sequence
-MainActivity->DevicePulseActivity: new intent
-Note right of DevicePulseActivity: check user Register or not
-DevicePulseActivity-->DeviceNameActivity: no register
-DeviceNameActivity->DevicePulseActivity: Register user name
 
-```
+<img src="https://i.imgur.com/X47fNAj.png" width=40%>
+
 ## library 
 * client.aar
 
 ## sign in screen
-![](https://i.imgur.com/nljnKz5.png)
+<img src="https://i.imgur.com/nljnKz5.png" width=40%>
