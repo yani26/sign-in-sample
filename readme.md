@@ -15,7 +15,7 @@ Register when using the app for the first time
 
 ## Architecture
 
-<img src="https://i.imgur.com/X47fNAj.png" width=40%>
+<img src="https://i.imgur.com/X47fNAj.png">
 
 ## library 
 * client.aar
